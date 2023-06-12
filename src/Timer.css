@@ -1,0 +1,52 @@
+.timer-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.timer-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.timer-form input {
+  width: 40px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.timer-label {
+  margin-right: 10px;
+}
+
+.timer-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.timer-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.timer-value {
+  margin-right: 10px;
+}
+
+.timer-button,
+.timer-remove-button {
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+.timer-remove-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.world-clock-time {
+  margin-top: 10px;
+  font-weight: bold;
+}
